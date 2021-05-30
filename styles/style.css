@@ -2,11 +2,25 @@ body {
 	font-family: Fjord One;
 	font-size: 18px;
 	line-height: 1.5;
-	
 	background-color: #ffffff;
 	color: #333333;
 	margin: 0 auto 300px auto;
 	width: 900px;
+}
+
+/*////////////////////////////////////////
+///////////// PROGRESS INFO /////////////
+///////////////////////////////////////*/
+
+.progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.counter {
+  font-size: 12px;
+  opacity: 75%;
 }
 
 /*///////////////////

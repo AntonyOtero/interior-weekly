@@ -5,7 +5,8 @@ body {
 	background-color: #ffffff;
 	color: #333333;
 	margin: 0 auto 300px auto;
-	width: 900px;
+  width: 100%;
+	max-width: 900px;
   transition: background-color 1s ease;
 }
 
@@ -67,12 +68,12 @@ nav a {
 /////////////////////*/
 
 section {
-  padding: 100px 0 100px 0;
+  padding: 100px 0;
 }
 
 section img {
-  width: 900px;
-  height: 600px;
+  width: 100%;
+  height: auto;
 }
 
 /*////////////////////////////
@@ -81,4 +82,21 @@ section img {
 
 .hidden {
   transform: translateY(-100%);
+}
+
+/*////////////////////////////////////////
+///////////// MEDIA QUERIES /////////////
+///////////////////////////////////////*/
+
+@media screen and (max-width: 630px){header {
+    flex-direction: column;
+  }
+
+  section {
+    padding: 20px;
+  }
+
+  section:first-of-type {
+    margin-top: 121px;
+  }
 }

@@ -1,5 +1,7 @@
 $(document).on("scroll", () => {
-  let pixels = $(document).scrollTop();
+  let pixelsFromTop = $(document).scrollTop();
 
-  $(".progress .counter").text("Pixels Down: " + pixels);
+  $(".progress .counter").text("Pixels Down: " + pixelsFromTop);
+
+  (pixelsFromTop > 50) ? $("header").addClass("hidden") : $("header").removeClass("hidden");
 });

@@ -9,30 +9,37 @@ body {
 	width: 900px;
 }
 
+/*///////////////////
+////// HEADER //////
+//////////////////*/  
+
 header {
   position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   top: 0;
   left: 0;
   width: 100%;
-  overflow: hidden;
-  padding: 40px;
+  padding: 20px 40px;
+  box-sizing: border-box;
 }
 
 h1 {
-  float: left;
+  margin: 0;
 	font-weight: 700;
-}
-
-nav {
-  float: right;
 }
 
 nav a {
   color: #333333;
   text-decoration: none;
   border-bottom: 1px solid #7fdbff;
-  margin: 0 0 0 15px;
+  margin: 0 15px 0 0;
 }
+
+/*//////////////////////
+/////// GALLERY ///////
+/////////////////////*/
 
 section {
   padding: 100px 0 100px 0;

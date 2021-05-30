@@ -13,13 +13,22 @@ body {
 ///////////// PROGRESS INFO /////////////
 ///////////////////////////////////////*/
 
-.progress {
+.progress-bar,
+.progress-counter {
   position: fixed;
-  top: 0;
-  left: 0;
 }
 
-.counter {
+.progress-bar {
+  top: 0;
+  left: 0;
+  height: 4px;
+  background-color: #7fdbff;
+}
+
+.progress-counter {
+  top: 4px;
+  left: 0;
+  margin-left: 10px;
   font-size: 12px;
   opacity: 75%;
 }
